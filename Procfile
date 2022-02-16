@@ -1,1 +1,1 @@
-web: gunicorn dsci532-2022-ia1-rsivanandam:server
+web:gunicorn dsci532-2022-ia1-rsivanandam:server
