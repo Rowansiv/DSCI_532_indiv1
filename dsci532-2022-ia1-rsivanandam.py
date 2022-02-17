@@ -1,4 +1,4 @@
-from dash import Dash, html, dcc, Input, Output
+from dash import Dash, dcc, html, Input, Output
 import altair as alt
 import pandas as pd
 
