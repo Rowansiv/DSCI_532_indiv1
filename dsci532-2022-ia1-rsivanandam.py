@@ -19,8 +19,6 @@ app.layout = html.Div([
 @app.callback(
     Output('scatter', 'srcDoc'),
     Input('xcol', 'value'))
-def update_output(xcol):
-    return plot_altair(xcol)
 
 def plot_altair(xcol):
     chart = alt.Chart(iris).mark_point().encode(
